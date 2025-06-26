@@ -81,7 +81,6 @@ class Light:
   
 
 room = Room()
-
 room.room_light_switch_on()  
 room.room_light_switch_off() 
 
@@ -108,4 +107,19 @@ laptop.battery.check_charge(True)
 
 
 
-                                                
+ 
+6.
+
+class Camera:
+    def take_a_picture(self):
+        print("Give a smile! picture is clicking")   
+        
+        
+class Moblie:
+    def __init__(self):
+        self.camera = Camera()
+
+
+moblie = Moblie()
+moblie.camera.take_a_picture()
+                                                             
