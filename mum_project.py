@@ -14,22 +14,5 @@
 
 
 
-# Assuming this dictionary is defined to store branches
-library_branches = {}
 
-# Define the function
-def add_library_branch(branch_id, location, operating_hours):
-    library_branches[branch_id] = {
-        'location': location,
-        'operating_hours': operating_hours
-    }
-
-# Add a branch
-add_library_branch("BR001", "Hyderabad", "9:00 AM - 5:00 PM")
-    
-# Add another branch
-add_library_branch("BR002", "Delhi", "10:00 AM - 6:00 PM")
-
-# Print to verify
-print(library_branches)   
-
+h
