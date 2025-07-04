@@ -81,6 +81,10 @@ class Light:
   
 
 room = Room()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 65e7817884e21fa5cfba05aba9b82d607b4a8456
 room.room_light_switch_on()  
 room.room_light_switch_off() 
 
@@ -107,6 +111,7 @@ laptop.battery.check_charge(True)
 
 
 
+<<<<<<< HEAD
  
 6.
 
@@ -123,3 +128,6 @@ class Moblie:
 moblie = Moblie()
 moblie.camera.take_a_picture()
                                                              
+=======
+                                                
+>>>>>>> 65e7817884e21fa5cfba05aba9b82d607b4a8456
